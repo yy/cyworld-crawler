@@ -1,3 +1,6 @@
+contents_urls.txt
+driver/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
