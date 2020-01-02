@@ -3,7 +3,7 @@ import logging
 
 import cyworld
 
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.WARNING)
 
 if __name__ == "__main__":
     EMAIL = os.environ["CYWORLD_EMAIL"]
@@ -12,4 +12,4 @@ if __name__ == "__main__":
     cy = cyworld.Cyworld()
     cy.login(email=EMAIL, password=PASSWORD)
     cy.move_to_home()
-    cy.get_all_content_urls()
+    cy.download_all_contents()

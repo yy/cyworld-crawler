@@ -1,5 +1,8 @@
-contents_urls.txt
 driver/*
+contents_ids.txt
+downloaded.txt
+posts/*
+*.un~
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -130,3 +133,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.DS_Store
