@@ -71,7 +71,7 @@ class CyPost:
             self.soup.select("div.view1")[0].p.children)[-1].strip().split()
 
     def is_deleted(self):
-        if self.soup.select("div.error_page"):
+        if self.soup.select("div.erorr_page"):
             return True
         return False
 
